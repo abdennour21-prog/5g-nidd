@@ -1,18 +1,15 @@
 5G-NIDD Dataset
-This repository contains the dataset described in:
+Overview
+The 5G Wireless Network Intrusion Detection Dataset (5G-NIDD) is a specialized collection of network traffic data generated over a functional 5G testbed. It is designed to facilitate the development of security solutions for 5G-enabled environments, such as Smart Cities and Industrial IoT.
 
-Y. Siriwardhana et al., "Descriptor: 5G Wireless Network Intrusion Detection Dataset (5G-NIDD)," in IEEE Data Descriptions, doi: 10.1109/IEEEDATA.2025.3592888.
+Dataset Resources & Access
+Official Project Website: netslab.ucd.ie/5g-nidd/
 
-@ARTICLE{11098458, author={Siriwardhana, Yushan and Samarakoon, Sehan and Porambage, Pawani and Liyanage, Madhusanka and Chang, Sang-Yoon and Kim, Jinoh and Kim, Jonghyun and Ylianttila, Mika}, journal={IEEE Data Descriptions}, title={Descriptor: 5G Wireless Network Intrusion Detection Dataset (5G-NIDD)}, year={2025}, volume={}, number={}, pages={1-12}, doi={10.1109/IEEEDATA.2025.3592888}}
+Public Access (DOI): 10.23729/e80ac9df-d9fb-47e7-8d0d-01384a415361
 
-The dataset and the instructions on how to use the dataset are available at
+IEEE DataPort Repository: 10.21227/xtep-hv36
 
-public DOI: 10.23729/e80ac9df-d9fb-47e7-8d0d-01384a415361
+Key Technical Files
+Attack Scripts: Refer to the attack_scripts directory for the specific tools and methods used to simulate network threats (DDoS, Scanning, etc.).
 
-DOI with IEEE dataport subscription: 10.21227/xtep-hv36
-
-The dataset link is also available at https://netslab.ucd.ie/5g-nidd/
-
-All the attack scripts are available at attack_scripts file
-
-Simple data load script is available at dataload.txt
+Data Implementation: A simple Python-based loading script is available in the dataload.txt file to assist in importing the dataset for analysis.
